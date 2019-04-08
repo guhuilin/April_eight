@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/referrer/main",
+    "pages/phone/main",
+    "pages/classify/main",
+    "pages/autonym/main",
+    "pages/share/main",
+    "pages/index/main",
+
+    "pages/judge/main",
+    "pages/artificial/main",
+
+    "pages/submission/main",
+    "pages/go2detail/main",
+    "pages/spike/main",
+    "pages/spikeDetail/main",
+
+    "pages/special/main",
+    "pages/conponlist/main",
+    "pages/logistics/main",
+    "pages/myorder/main",
+    "pages/myorder/successfulTrade/main",
+    "pages/myorder/cashDetails/main",
+    "pages/orderdetails/main",
+    "pages/seek/main",
+
+    "pages/sharedetail/main",
+    "pages/logs/main",
+    "pages/shoppingadress/main",
+    "pages/shoppingadress/redactAddress/main",
+    "pages/logistics/success/main",
+    "pages/myorder/settlement/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+   "tabBar":{
+    "selectedColor":"#56D2BF",
+    "borderStyle":"black",
+    "list":[{
+       "pagePath": "pages/index/main",
+       "text":"首页",
+       "iconPath": "/static/images/shouye.png",
+       "selectedIconPath": "/static/images/shouye_active.png"
+    },
+    {
+      "pagePath":  "pages/logs/main",
+      "text": "我的",
+      "iconPath":"/static/images/my.png",
+      "selectedIconPath": "/static/images/my_active.png"
+    }]
+  }
+}
